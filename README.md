@@ -31,7 +31,7 @@ Via Docker :
         Pull Docker Image by below command :
     docker pull jagapd/api-automation-framework:1.0 
     
-    Run Dokcer Image :
+  Run Dokcer Image :
     docker run jagapd/api-automation-framework:1.0 mvn test
 
 

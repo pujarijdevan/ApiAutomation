@@ -27,8 +27,7 @@ How to Execute :
     Results are available in reports folder after test run
 
 Via Docker :
-    docker pull jagapd/api-automation-framework:1.0
-    
+    docker pull jagapd/api-automation-framework:1.0 
     docker run jagapd/api-automation-framework:1.0 mvn test
 
 

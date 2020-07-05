@@ -16,7 +16,6 @@ public class BaseTest {
 
     public static Properties config = new Properties();
     private FileInputStream fis;
-  //  public static ExcelReader excel = new ExcelReader("./src/test/resources/excel/testdata.xlsx");
 
     @BeforeSuite
     public void setUp() {

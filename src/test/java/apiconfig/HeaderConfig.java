@@ -1,10 +1,6 @@
 package apiconfig;
 
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
-import io.restassured.response.Response;
 import setup.BaseTest;
-import utilities.Constants;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,18 +8,18 @@ import java.util.Map;
 public class HeaderConfig extends BaseTest {
 
     public Map<String, String> headersWithToken(){
-        Map<String, String> defalutHeaders = new HashMap<>();
-        defalutHeaders.put("Content-Type", "application/json");
-        defalutHeaders.put("x-fas-signature",config.getProperty("x-fas-signature"));
-        return defalutHeaders;
+        Map<String, String> defaulttHeaders = new HashMap<>();
+        defaulttHeaders.put("Content-Type", "application/json");
+        defaulttHeaders.put("x-fas-signature",config.getProperty("x-fas-signature"));
+        return defaulttHeaders;
 
     }
 
     public Map<String,String> headerWithInvalidToken(String token){
-        Map<String, String> defalutHeaders = new HashMap<>();
-        defalutHeaders.put("Content-Type", "application/json");
-        defalutHeaders.put("x-fas-signature", token);
-        return defalutHeaders;
+        Map<String, String> defaultHeaders = new HashMap<>();
+        defaultHeaders.put("Content-Type", "application/json");
+        defaultHeaders.put("x-fas-signature", token);
+        return defaultHeaders;
     }
 
 

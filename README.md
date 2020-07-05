@@ -33,20 +33,19 @@ This Framework Exhibits:
 
 How to Execute :
 
-        PRE-REQUISITE : MAVEN AND JAVA 1.8 ARE INSTALLED
-    git pull https://github.com/Jagapd/ApiAutomation.git
-        wait for maven dependency files to be imported
-    Run
-    mvn test command in the project location.
-    Results are available in reports folder after test run
+Prerequisite : Maven and Java 1.8,git are installed in the system.
+Open terminal
+1. Execute git pull https://github.com/Jagapd/ApiAutomation.git
+2. Wait for some time to pull  maven dependency libraries.
+3. Execute mvn test command .
+4. Results are available in reports folder after test run
 
 Via Docker :
-Pre-requisite : Docker is installed.
-Pull Docker Image by below command :
-docker pull jagapd/api-automation-framework:1.0 
-    
-  Run docker Image :
-    docker run jagapd/api-automation-framework:1.0 mvn test
+Prerequisite : Docker is installed.
+1. Pull Docker Image of application by below command :
+2. docker pull jagapd/api-automation-framework:1.0
+3. Run docker Image :
+4. docker run jagapd/api-automation-framework:1.0 mvn test
 
 
 

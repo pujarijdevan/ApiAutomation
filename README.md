@@ -1,5 +1,5 @@
 # ApiAutomation
-Tech Stakes :
+Tech stakes :
     Rest Assured
     TestNG
     Maven

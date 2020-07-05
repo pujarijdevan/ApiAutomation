@@ -1,6 +1,6 @@
 # ApiAutomation
 Tech stakes :
-    Rest Assured:
+   1. Rest Assured:
         It is java based library supports testing Restful web service. It is free and open sourced framework
         This library behaves like a headless Client to access REST web services.
         Sending https requests with user-friendly customizations is simple if one has a basic background of java.
@@ -9,15 +9,15 @@ Tech stakes :
         It also supports BDD approach of writing test.
         It can be extended to proper BDD Cucumber framework if needed.
 
-    TestNG:
+   2. TestNG:
         Functional testing framework which supports annotations which are easy to understand
         Easy to group test cases & prioritize test cases execution.
         Have inbuilt HTMl report support.
-    Maven:
+   3. Maven:
      For dependency management of various libraries
-    Extent Report:
+   4. Extent Report:
         Provides report in dashboard format
-    Docker:
+   5. Docker:
         Containerize the application & enthronement and run it anywhere.
 
 About Framework :

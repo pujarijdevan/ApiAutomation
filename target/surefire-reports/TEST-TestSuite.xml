@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="83.066" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="88.306" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="SG"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire/surefirebooter9018100647572468637.jar /Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire 2020-07-05T18-07-13_783-jvmRun1 surefire6923570292203367719tmp surefire_04014317294779223436tmp"/>
+    <property name="sun.java.command" value="/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire/surefirebooter7085130347584117219.jar /Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire 2020-07-05T20-32-01_716-jvmRun1 surefire6652761608506876591tmp surefire_01974241503834102704tmp"/>
     <property name="surefire.test.class.path" value="/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/test-classes:/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/classes:/Users/jagadeesan.pd/.m2/repository/io/rest-assured/rest-assured/4.1.2/rest-assured-4.1.2.jar:/Users/jagadeesan.pd/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/jagadeesan.pd/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jagadeesan.pd/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/jagadeesan.pd/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/jagadeesan.pd/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jagadeesan.pd/.m2/repository/io/rest-assured/json-path/4.1.2/json-path-4.1.2.jar:/Users/jagadeesan.pd/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/jagadeesan.pd/.m2/repository/io/rest-assured/rest-assured-common/4.1.2/rest-assured-common-4.1.2.jar:/Users/jagadeesan.pd/.m2/repository/io/rest-assured/xml-path/4.1.2/xml-path-4.1.2.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/jagadeesan.pd/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/jagadeesan.pd/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/jagadeesan.pd/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/jagadeesan.pd/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/jagadeesan.pd/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/jagadeesan.pd/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jagadeesan.pd/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/jagadeesan.pd/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/jagadeesan.pd/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar:/Users/jagadeesan.pd/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:/Users/jagadeesan.pd/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/Users/jagadeesan.pd/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/jagadeesan.pd/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/jagadeesan.pd/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/jagadeesan.pd/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jagadeesan.pd/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/jagadeesan.pd/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/jagadeesan.pd/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/jagadeesan.pd/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/jagadeesan.pd/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/jagadeesan.pd/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/jagadeesan.pd/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/jagadeesan.pd/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jagadeesan.pd"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire/surefirebooter9018100647572468637.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jagadeesan.pd/Documents/APIAutomationFramework/target/surefire/surefirebooter7085130347584117219.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_232-b09"/>
@@ -50,7 +50,6 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="idea.version2019.1" value="true"/>
     <property name="java.library.path" value="/Users/jagadeesan.pd/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="AdoptOpenJDK"/>
@@ -59,14 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached" classname="testcases.E2ETestCases" time="15.044"/>
-  <testcase name="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination" classname="testcases.E2ETestCases" time="9.594"/>
-  <testcase name="verifyBookAPIWithInvalidToken" classname="testcases.E2ETestCases" time="1.956"/>
-  <testcase name="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable" classname="testcases.E2ETestCases" time="10.028"/>
-  <testcase name="verifyBookApiWithInvalidRequestBody" classname="testcases.E2ETestCases" time="2.011"/>
-  <testcase name="verifyBookApiWithInvalidRequestBody" classname="testcases.E2ETestCases" time="1.254"/>
-  <testcase name="verifyResetApiWithInvalidHeader" classname="testcases.E2ETestCases" time="1.278"/>
-  <testcase name="verifyTickApiWithInvalidHeader" classname="testcases.E2ETestCases" time="1.357"/>
-  <testcase name="verifyUserIsAllocatedCar" classname="testcases.E2ETestCases" time="1.329"/>
-  <testcase name="verifyUserIsAllocatedCar" classname="testcases.E2ETestCases" time="1.703"/>
+  <testcase name="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached" classname="testcases.E2ETestCases" time="14.08"/>
+  <testcase name="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination" classname="testcases.E2ETestCases" time="9.205"/>
+  <testcase name="verifyBookAPIWithInvalidToken" classname="testcases.E2ETestCases" time="1.749"/>
+  <testcase name="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable" classname="testcases.E2ETestCases" time="13.532"/>
+  <testcase name="verifyBookApiWithInvalidRequestBody" classname="testcases.E2ETestCases" time="3.222"/>
+  <testcase name="verifyBookApiWithInvalidRequestBody" classname="testcases.E2ETestCases" time="1.338"/>
+  <testcase name="verifyResetApiWithInvalidHeader" classname="testcases.E2ETestCases" time="1.49"/>
+  <testcase name="verifyTickApiWithInvalidHeader" classname="testcases.E2ETestCases" time="1.498"/>
+  <testcase name="verifyUserIsAllocatedCar" classname="testcases.E2ETestCases" time="2.026"/>
+  <testcase name="verifyUserIsAllocatedCar" classname="testcases.E2ETestCases" time="1.471"/>
 </testsuite>

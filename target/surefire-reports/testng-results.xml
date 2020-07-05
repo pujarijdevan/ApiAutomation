@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="81873" started-at="2020-07-05T10:07:15Z" finished-at="2020-07-05T10:08:37Z">
+  <suite name="All Test Suite" duration-ms="87021" started-at="2020-07-05T12:32:03Z" finished-at="2020-07-05T12:33:30Z">
     <groups>
     </groups>
-    <test name="E2E TestCases" duration-ms="81873" started-at="2020-07-05T10:07:15Z" finished-at="2020-07-05T10:08:37Z">
+    <test name="E2E TestCases" duration-ms="87021" started-at="2020-07-05T12:32:03Z" finished-at="2020-07-05T12:33:30Z">
       <class name="testcases.E2ETestCases">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.E2ETestCases@32709393]" name="setUp" is-config="true" duration-ms="365" started-at="2020-07-05T10:07:15Z" finished-at="2020-07-05T10:07:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="setUp" is-config="true" duration-ms="373" started-at="2020-07-05T12:32:02Z" finished-at="2020-07-05T12:32:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="2570" started-at="2020-07-05T10:07:15Z" finished-at="2020-07-05T10:07:18Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="3815" started-at="2020-07-05T12:32:03Z" finished-at="2020-07-05T12:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached" duration-ms="15043" started-at="2020-07-05T10:07:18Z" data-provider="data" finished-at="2020-07-05T10:07:33Z">
+        <test-method status="PASS" signature="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyAllCarsAreAvailableForBookingOnceDestinationIsReached" duration-ms="14072" started-at="2020-07-05T12:32:07Z" data-provider="data" finished-at="2020-07-05T12:32:21Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllCarsAreAvailableForBookingOnceDestinationIsReached -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1603" started-at="2020-07-05T10:07:33Z" finished-at="2020-07-05T10:07:34Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1408" started-at="2020-07-05T12:32:21Z" finished-at="2020-07-05T12:32:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1467" started-at="2020-07-05T10:07:34Z" finished-at="2020-07-05T10:07:36Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="2883" started-at="2020-07-05T12:32:22Z" finished-at="2020-07-05T12:32:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination" duration-ms="9594" started-at="2020-07-05T10:07:36Z" data-provider="data" finished-at="2020-07-05T10:07:45Z">
+        <test-method status="PASS" signature="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyAllocatedCarIsAvailableForBookingAfterReachingDestination" duration-ms="9204" started-at="2020-07-05T12:32:25Z" data-provider="data" finished-at="2020-07-05T12:32:34Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllocatedCarIsAvailableForBookingAfterReachingDestination -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="2155" started-at="2020-07-05T10:07:45Z" finished-at="2020-07-05T10:07:48Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1550" started-at="2020-07-05T12:32:34Z" finished-at="2020-07-05T12:32:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1430" started-at="2020-07-05T10:07:48Z" finished-at="2020-07-05T10:07:49Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1839" started-at="2020-07-05T12:32:36Z" finished-at="2020-07-05T12:32:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyBookAPIWithInvalidToken(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyBookAPIWithInvalidToken" duration-ms="1956" started-at="2020-07-05T10:07:49Z" data-provider="data" finished-at="2020-07-05T10:07:51Z">
+        <test-method status="PASS" signature="verifyBookAPIWithInvalidToken(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyBookAPIWithInvalidToken" duration-ms="1749" started-at="2020-07-05T12:32:38Z" data-provider="data" finished-at="2020-07-05T12:32:39Z">
           <params>
             <param index="0">
               <value>
@@ -109,15 +109,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBookAPIWithInvalidToken -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="3467" started-at="2020-07-05T10:07:51Z" finished-at="2020-07-05T10:07:54Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1933" started-at="2020-07-05T12:32:39Z" finished-at="2020-07-05T12:32:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="2422" started-at="2020-07-05T10:07:54Z" finished-at="2020-07-05T10:07:57Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1770" started-at="2020-07-05T12:32:41Z" finished-at="2020-07-05T12:32:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable" duration-ms="10028" started-at="2020-07-05T10:07:57Z" data-provider="data" finished-at="2020-07-05T10:08:07Z">
+        <test-method status="PASS" signature="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable" duration-ms="13532" started-at="2020-07-05T12:32:43Z" data-provider="data" finished-at="2020-07-05T12:32:57Z">
           <params>
             <param index="0">
               <value>
@@ -143,15 +143,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBookApiReturnsEmptyResponseWhenNoCarIsAvailable -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="3501" started-at="2020-07-05T10:08:07Z" finished-at="2020-07-05T10:08:10Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1996" started-at="2020-07-05T12:32:57Z" finished-at="2020-07-05T12:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1599" started-at="2020-07-05T10:08:10Z" finished-at="2020-07-05T10:08:12Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1600" started-at="2020-07-05T12:32:59Z" finished-at="2020-07-05T12:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyBookApiWithInvalidRequestBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyBookApiWithInvalidRequestBody" duration-ms="2011" started-at="2020-07-05T10:08:12Z" data-provider="data" finished-at="2020-07-05T10:08:14Z">
+        <test-method status="PASS" signature="verifyBookApiWithInvalidRequestBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyBookApiWithInvalidRequestBody" duration-ms="3221" started-at="2020-07-05T12:33:00Z" data-provider="data" finished-at="2020-07-05T12:33:03Z">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBookApiWithInvalidRequestBody -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1308" started-at="2020-07-05T10:08:14Z" finished-at="2020-07-05T10:08:15Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1534" started-at="2020-07-05T12:33:03Z" finished-at="2020-07-05T12:33:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1309" started-at="2020-07-05T10:08:15Z" finished-at="2020-07-05T10:08:17Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1427" started-at="2020-07-05T12:33:05Z" finished-at="2020-07-05T12:33:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyBookApiWithInvalidRequestBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyBookApiWithInvalidRequestBody" duration-ms="1255" started-at="2020-07-05T10:08:17Z" data-provider="data" finished-at="2020-07-05T10:08:18Z">
+        <test-method status="PASS" signature="verifyBookApiWithInvalidRequestBody(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyBookApiWithInvalidRequestBody" duration-ms="1339" started-at="2020-07-05T12:33:06Z" data-provider="data" finished-at="2020-07-05T12:33:08Z">
           <params>
             <param index="0">
               <value>
@@ -211,39 +211,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBookApiWithInvalidRequestBody -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="2582" started-at="2020-07-05T10:08:18Z" finished-at="2020-07-05T10:08:20Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1699" started-at="2020-07-05T12:33:08Z" finished-at="2020-07-05T12:33:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1321" started-at="2020-07-05T10:08:20Z" finished-at="2020-07-05T10:08:22Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1594" started-at="2020-07-05T12:33:09Z" finished-at="2020-07-05T12:33:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyResetApiWithInvalidHeader()[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyResetApiWithInvalidHeader" duration-ms="1278" started-at="2020-07-05T10:08:22Z" finished-at="2020-07-05T10:08:23Z">
+        <test-method status="PASS" signature="verifyResetApiWithInvalidHeader()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyResetApiWithInvalidHeader" duration-ms="1490" started-at="2020-07-05T12:33:11Z" finished-at="2020-07-05T12:33:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetApiWithInvalidHeader -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1319" started-at="2020-07-05T10:08:23Z" finished-at="2020-07-05T10:08:24Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1666" started-at="2020-07-05T12:33:12Z" finished-at="2020-07-05T12:33:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1312" started-at="2020-07-05T10:08:24Z" finished-at="2020-07-05T10:08:26Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1535" started-at="2020-07-05T12:33:14Z" finished-at="2020-07-05T12:33:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyTickApiWithInvalidHeader()[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyTickApiWithInvalidHeader" duration-ms="1356" started-at="2020-07-05T10:08:26Z" finished-at="2020-07-05T10:08:27Z">
+        <test-method status="PASS" signature="verifyTickApiWithInvalidHeader()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyTickApiWithInvalidHeader" duration-ms="1498" started-at="2020-07-05T12:33:16Z" finished-at="2020-07-05T12:33:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTickApiWithInvalidHeader -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1351" started-at="2020-07-05T10:08:27Z" finished-at="2020-07-05T10:08:28Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1268" started-at="2020-07-05T12:33:17Z" finished-at="2020-07-05T12:33:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1327" started-at="2020-07-05T10:08:28Z" finished-at="2020-07-05T10:08:30Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1348" started-at="2020-07-05T12:33:18Z" finished-at="2020-07-05T12:33:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyUserIsAllocatedCar(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyUserIsAllocatedCar" duration-ms="1328" started-at="2020-07-05T10:08:30Z" data-provider="data" finished-at="2020-07-05T10:08:31Z">
+        <test-method status="PASS" signature="verifyUserIsAllocatedCar(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyUserIsAllocatedCar" duration-ms="2026" started-at="2020-07-05T12:33:20Z" data-provider="data" finished-at="2020-07-05T12:33:22Z">
           <params>
             <param index="0">
               <value>
@@ -269,15 +269,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAllocatedCar -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1340" started-at="2020-07-05T10:08:31Z" finished-at="2020-07-05T10:08:32Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="1850" started-at="2020-07-05T12:33:22Z" finished-at="2020-07-05T12:33:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1524" started-at="2020-07-05T10:08:32Z" finished-at="2020-07-05T10:08:34Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="2468" started-at="2020-07-05T12:33:24Z" finished-at="2020-07-05T12:33:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="verifyUserIsAllocatedCar(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@32709393]" name="verifyUserIsAllocatedCar" duration-ms="1700" started-at="2020-07-05T10:08:34Z" data-provider="data" finished-at="2020-07-05T10:08:36Z">
+        <test-method status="PASS" signature="verifyUserIsAllocatedCar(int, int, int, int)[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="verifyUserIsAllocatedCar" duration-ms="1473" started-at="2020-07-05T12:33:26Z" data-provider="data" finished-at="2020-07-05T12:33:28Z">
           <params>
             <param index="0">
               <value>
@@ -303,11 +303,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAllocatedCar -->
-        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@32709393]" name="resetCarData" is-config="true" duration-ms="1386" started-at="2020-07-05T10:08:36Z" finished-at="2020-07-05T10:08:37Z">
+        <test-method status="PASS" signature="resetCarData()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="resetCarData" is-config="true" duration-ms="2199" started-at="2020-07-05T12:33:28Z" finished-at="2020-07-05T12:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetCarData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.E2ETestCases@32709393]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-05T10:08:37Z" finished-at="2020-07-05T10:08:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.E2ETestCases@3cef309d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-05T12:33:30Z" finished-at="2020-07-05T12:33:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
